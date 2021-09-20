@@ -1,0 +1,14 @@
+-Save data in a local database using Room
+-Primary components:
+       -The database class that holds the database and serves as
+        the main access point for the underlying connection to our app's persisted data.
+
+       -Data entities that represent tables in your app's database.
+
+       -Data access objects (DAOs) that provide methods that our app can use to query,
+
+        update, insert, and delete data in the database.
+
+The database class provides our app with instances of the DAOs associated with that database.
+In turn, the app can use the DAOs to retrieve data from the database as instances of the
+associated data entity objects.

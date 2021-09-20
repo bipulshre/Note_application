@@ -1,0 +1,1 @@
+An Adapter object acts as a bridge between an AdapterView and the underlying data for that view.
